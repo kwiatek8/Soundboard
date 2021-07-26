@@ -16,8 +16,7 @@
 #### You have to add all .ogg files to your "InteractSound" script and add them to the manifes. Small tip from me, you can do it with just one line :)
 > 'client/html/sounds/**.ogg'
 
-#### Samo menu możecie otwierać przygotowanym exportem i dodać go do waszego skryptu z jobem etc.
-#### You can open the menu with prepared export 
+#### You can open the menu with prepared export and add it to your mechanicjob script
 > **exports['kwiatek_soundboard']:soundboard_display()**
 
 ##### Have a nice day :)
