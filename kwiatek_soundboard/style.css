@@ -1,0 +1,143 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.toggle {
+    transform: scale(0);
+    background-color: black;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transition: 0.7s;
+}
+
+.fa-plus{
+  font-size: 60px;
+  color: white;
+  display: block;
+  margin-top: 37%;
+  transition: 0.7s;
+}
+
+.menu {
+    background-color: white;
+    height: 190px;
+    width: 190px;
+    transform: scale(0);
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    transition: 0.7s;
+}
+
+.submenu {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    transform: scale(0);
+    border-radius: 50%;
+    border-style: solid;
+    border: 1px solid black;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 89.5%;
+    bottom: 89.5%;
+    right: 0px;
+    z-index: -1;
+    transition: 0.7s;
+}
+
+#dzwiekoff {
+    transform: scale(0);
+    top: 25%;
+    left: 63.7%;
+    transition: 0.3s;
+}
+
+a {
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    color: #BBBBBB;
+}
+
+#mlotek {
+    transform: scale(0);
+    top: 30%;
+    left: 50%;
+    transition: 0.3s;
+}
+
+#odkurzacz {
+    transform: scale(0);
+    top: 38%;
+    left: 58%;
+    transition: 0.3s;
+}
+
+#scierka {
+    transform: scale(0);
+    top: 50%;
+    left: 60%;
+    transition: 0.3s;
+}
+
+#wiertarka {
+    transform: scale(0);
+    top: 62%;
+    left: 58%;
+    transition: 0.3s;
+}
+
+#wiertarka2 {
+    transform: scale(0);
+    top: 70%;
+    left: 50%;
+    transition: 0.3s;
+}
+
+#klucz {
+    transform: scale(0);
+    top: 62%;
+    left: 42%;
+    transition: 0.3s;
+}
+
+#klucz2 {
+    transform: scale(0);
+    top: 50%;
+    left: 40%;
+    transition: 0.3s;
+}
+
+#szlifierka {
+    transform: scale(0);
+    top: 38%;
+    left: 42%;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.toggle:hover {
+    opacity: 0.8;
+}
