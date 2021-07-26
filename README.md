@@ -12,7 +12,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#### Simple script for panel withs sounds for mechanic roleplay etc
+#### Simple script for panel with sounds for mechanic roleplay etc
 #### You have to add all .ogg files to your "InteractSound" script and add them to the manifes. Small tip from me, you can do it with just one line :)
 > 'client/html/sounds/**.ogg'
 
